@@ -1,0 +1,76 @@
+body{
+    background-image: url("https://i.ibb.co/MV6p13w/st-thomas.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    box-sizing: border-box;
+    height: 370px;
+    width: 320px;
+    background-color: #000000;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-top : 60px;
+    padding-left: 20px;
+    margin-right: 25px;
+}
+.avatar{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.loginbox h3{
+    text-align: center;
+}
+.loginbox input{
+    width: 120px;
+    height: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+input[type= "submit"]{
+    background-color: #e02020;
+    color: #ffffff;
+    display: inline-block;
+    width: 250px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+}
+
+.loginbox a{
+    text-decoration : none;
+    display: inline-block;
+    color: #207ae0;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+input[type = text], input[type = password]{
+    
+    border: none ;
+    border-bottom: 1px solid goldenrod ;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+
+}
+
+.loginbox .submit_button:hover{
+    background-color: #5cdddd;
+    
+}
+
+
+
